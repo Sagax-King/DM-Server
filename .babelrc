@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "flow",
+    [
+      "env",
+      {
+        "targets": { "node": "current" }
+      }
+    ],
+    "stage-3"
+  ],
+  "plugins": [
+    "add-module-exports",
+    "transform-object-rest-spread"
+  ]
+}
